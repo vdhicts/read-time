@@ -72,12 +72,12 @@ In exchange, you will be credited as contributor on this page.
 
 ## Security
 
-If you discover any security related issues in this or other packages of Vdhicts, please email info@vdhicts.nl instead
+If you discover any security related issues in this or other packages of Vdhicts, please email security@vdhicts.nl instead
 of using the issue tracker.
 
 ## Support
 
-If you encounter a problem with this client or has a question about it, feel free to open an issue on GitHub.
+If you encounter a problem with this package or has a question about it, feel free to open an issue on GitHub.
 
 ## License
 
