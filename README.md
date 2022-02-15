@@ -77,8 +77,7 @@ of using the issue tracker.
 
 ## Support
 
-This package isn't an official package from Cyberfusion, so they probably won't offer support for it. If you encounter a
-problem with this client or has a question about it, feel free to open an issue on GitHub.
+If you encounter a problem with this client or has a question about it, feel free to open an issue on GitHub.
 
 ## License
 
