@@ -31,3 +31,7 @@ jobs:
             - name: Execute static analysis
               run: |
                   vendor/bin/phpstan
+
+            - name: Execute lint check
+              run: |
+                vendor/bin/pint --test
