@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Config;
 class ReadTime
 {
     private int $wordsPerMinute;
+
     private string $content;
 
     public function __construct(string $content, int $wordsPerMinute = null)
@@ -22,13 +23,13 @@ class ReadTime
 
     public function minutes(): int
     {
-        return (int)ceil($this->wordCount() / $this->wordsPerMinute);
+        return (int) ceil($this->wordCount() / $this->wordsPerMinute);
     }
 
     public function seconds(): int
     {
         $wordsPerSecond = $this->wordsPerMinute / 60;
 
-        return (int)ceil($this->wordCount() / $wordsPerSecond);
+        return (int) ceil($this->wordCount() / $wordsPerSecond);
     }
 }

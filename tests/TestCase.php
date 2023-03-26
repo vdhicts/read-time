@@ -13,5 +13,4 @@ abstract class TestCase extends Orchestra
             ReadTimeServiceProvider::class,
         ];
     }
-
 }
