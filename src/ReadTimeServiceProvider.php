@@ -14,8 +14,9 @@ class ReadTimeServiceProvider extends PackageServiceProvider
             $arguments = explode(',', $expression);
             $content = $arguments[0];
             $wordsPerMinute = count($arguments) > 1
-                ? (int)trim($arguments[1])
+                ? (int) trim($arguments[1])
                 : null;
+
             return "<?php echo read_time($content, $wordsPerMinute); ?>";
         });
     }
