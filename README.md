@@ -4,7 +4,7 @@ Laravel package to determine the read time of a text.
 
 ## Requirements
 
-This package requires at least Laravel 9+ and PHP 8.0 or newer.
+This package requires at least Laravel 11+ and PHP 8.2 or newer.
 
 ## Installation
 

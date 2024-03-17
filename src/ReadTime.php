@@ -10,7 +10,7 @@ class ReadTime
 
     private string $content;
 
-    public function __construct(string $content, int $wordsPerMinute = null)
+    public function __construct(string $content, ?int $wordsPerMinute = null)
     {
         $this->wordsPerMinute = $wordsPerMinute ?? Config::get('read-time.words_per_minute');
         $this->content = strip_tags($content);
