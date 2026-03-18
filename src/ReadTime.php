@@ -32,12 +32,4 @@ class ReadTime
 
         return (int) ceil($this->wordCount() / $wordsPerSecond);
     }
-
-    public function realReadTime(): array
-    {
-        return [
-            'minutes' => (int) floor($this->wordCount() / $this->wordsPerMinute);
-            'seconds' => (int) ceil($this->wordCount() / ($this->wordsPerMinute / 60));
-        ]
-    }
 }
